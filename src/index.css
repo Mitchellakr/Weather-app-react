@@ -12,7 +12,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgb(168, 211, 230); */
+  background-image: url(./images/weather-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -89,5 +95,5 @@ h1 {
 }
 
 ::placeholder {
-  color: white; 
+  color: white;
 }
